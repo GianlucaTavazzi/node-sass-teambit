@@ -1,0 +1,30 @@
+$a-color: rgb(85, 26, 139);
+$font-color: #58402c;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button{
+    a{
+        color: white;
+        text-decoration: none;
+        background-color: $a-color;
+        font-size: 18px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin-right: 15px;
+        display: inline-block;
+        &:hover{
+            background-color: darkblue;
+            color: white;
+        }
+    }
+
+    a:nth-child(2){
+        margin-left: 15px;
+    }
+}

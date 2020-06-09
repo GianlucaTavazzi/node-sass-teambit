@@ -1,0 +1,232 @@
+main{
+    .jumbotron{
+        .conteiner{
+            width: 87%;
+            margin: auto;
+            padding: 100px 0;
+            display: flex;
+        }
+
+        .Jumbotron-left{
+            width: 45%;
+            color: $font-color;
+
+            h1{
+                font-size: 50px;
+                line-height: 80px;
+                margin-bottom: 50px;
+            }
+
+            p{
+                font-size: 30px;
+                margin-bottom: 50px;
+            }
+
+            p:last-of-type{
+                margin-top: 20px;
+                a{
+                    text-decoration: none;
+                    font-size: 16px;
+                    color: $font-color;
+                }
+            }
+        }
+
+        .Jumbotron-right{
+            width: 55%;
+            padding-left: 50px;
+
+            img{
+                height: 425px;
+            }
+        }
+    }
+
+    .sections{
+        text-align: center;
+        background-color: #ffe7d2;
+
+        .conteiner{
+            width: 87%;
+            margin: auto;
+            padding: 90px 250px;
+            padding-bottom: 0;
+            border-bottom: 1px solid grey;
+        }
+
+        p{
+            font-size: 30px;
+            margin-bottom: 60px;
+        }
+
+        .wrapper{
+            display: flex;
+
+            .images{
+
+                p{
+                    font-size: 20px;
+                }
+
+                img{
+                    height: 100px;
+                    margin: 40px 0;
+                }
+            }
+        }
+
+        img{
+            height: 350px;
+            margin: 100px 0;
+        }
+    }
+
+    .feedback{
+
+        padding: 100px 0;
+        display: flex;
+
+        .img-left{
+            width: 50%;
+
+            img{
+                height: 550px;
+                position: absolute;
+                left: -130px;
+            }
+        }
+
+        .text-right{
+            width: 35%;
+            color: $font-color;
+
+            p{
+                font-size: 28px;
+                font-weight: bold;
+                margin-bottom: 50px;
+            }
+
+            p:last-of-type{
+                font-size: 25px;
+                font-weight: normal;
+                margin-bottom: 30px;
+            }
+
+            a{
+                display: block;
+                margin-bottom: 50px;
+                font-size: 25px;
+                text-decoration: none;
+
+            }
+
+            img{
+                height: 250px;
+                padding-left: 50px;
+            }
+        }
+    }
+
+    .surveys{
+        padding: 100px 0;
+        display: flex;
+        justify-content: flex-end;
+
+        .text-left{
+            width: 35%;
+            color: $font-color;
+
+            p{
+                font-size: 28px;
+                font-weight: bold;
+                margin-bottom: 50px;
+            }
+
+            p:last-of-type{
+                font-size: 25px;
+                font-weight: normal;
+                margin-bottom: 30px;
+            }
+
+            a{
+                display: block;
+                margin-bottom: 50px;
+                font-size: 25px;
+                text-decoration: none;
+
+            }
+
+            img{
+                height: 250px;
+                padding-left: 50px;
+            }
+        }
+
+        .img-right{
+            width: 50%;
+
+            img{
+                height: 500px;
+                position: absolute;
+                right: 0;
+            }
+        }
+    }
+
+    .reviews{
+        @extend .feedback;
+
+        .img-left{
+            img{
+                left: -150px;
+            }
+        }
+    }
+
+    .teammates{
+        @extend .surveys;
+
+        .img-right{
+            img{
+                height: 600px;
+            }
+        }
+    }
+
+    .start{
+        text-align: center;
+        color: $font-color;
+        background-color: #ffe7d2;
+        padding: 100px 0;
+
+        .conteiner{
+            width: 50%;
+            margin: auto;
+
+            h2{
+                font-size: 40px;
+                margin-bottom: 50px;
+            }
+
+            p:first-of-type{
+                text-align: left;
+                font-size: 18px;
+                background-color: white;
+                padding: 20px 35px;
+                border: 1px solid grey;
+                border-radius: 10px;
+                margin-bottom: 50px
+            }
+
+            p:last-of-type{
+                margin-top: 20px;
+
+                a{
+                    text-decoration: none;
+                    font-size: 16px;
+                    color: $font-color;
+                }
+            }
+        }
+    }
+}
