@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+header .conteiner {
+  width: 87%;
+  margin: auto;
+  padding: 20px 0;
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .header-left a {
+  display: flex;
+  align-items: center;
+}
+
+header .header-left img {
+  height: 50px;
+  padding-right: 10px;
+}
+
+header .header-right a {
+  padding: 0 20px;
+}
+
+header .header-right a:hover {
+  color: #551a8b;
+}
+
+header .header-right a:last-child {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #551a8b;
+}
+
+header .header-right a:last-child img {
+  height: 25px;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+header .header-right a:last-child:hover {
+  background-color: #551a8b;
+  color: white;
+}
+
+main .jumbotron .conteiner {
+  width: 87%;
+  margin: auto;
+  padding: 100px 0;
+  display: flex;
+}
+
+main .jumbotron .Jumbotron-left {
+  width: 45%;
+  color: #58402c;
+}
+
+main .jumbotron .Jumbotron-left h1 {
+  font-size: 50px;
+  line-height: 80px;
+  margin-bottom: 50px;
+}
+
+main .jumbotron .Jumbotron-left p {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+main .jumbotron .Jumbotron-left span a {
+  color: white;
+  text-decoration: none;
+  background-color: #551a8b;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+main .jumbotron .Jumbotron-left span a:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+main .jumbotron .Jumbotron-left span a:nth-child(2) {
+  margin-left: 15px;
+}
+
+main .jumbotron .Jumbotron-left p:last-of-type {
+  margin-top: 20px;
+}
+
+main .jumbotron .Jumbotron-left p:last-of-type a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #58402c;
+}
+
+main .jumbotron .Jumbotron-right {
+  width: 55%;
+  padding-left: 50px;
+}
+
+main .jumbotron .Jumbotron-right img {
+  height: 425px;
+}
+
+main .sections {
+  text-align: center;
+  background-color: #ffe7d2;
+}
+
+main .sections .conteiner {
+  width: 87%;
+  margin: auto;
+  padding: 90px 250px;
+  padding-bottom: 0;
+  border-bottom: 1px solid grey;
+}
+
+main .sections p {
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+
+main .sections .wrapper {
+  display: flex;
+}
+
+main .sections .wrapper .images p {
+  font-size: 20px;
+}
+
+main .sections .wrapper .images img {
+  height: 100px;
+  margin: 40px 0;
+}
+
+main .sections img {
+  height: 350px;
+  margin: 100px 0;
+}
+
