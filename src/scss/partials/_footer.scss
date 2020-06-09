@@ -28,10 +28,12 @@ footer{
         }
 
         .list{
+            width: 65%;
             display: flex;
 
             ul{
-                margin: 0 20px;
+                width: 20%;
+                margin: 0 10px;
                 li:first-of-type{
                     font-size: 18px;
                     font-weight: bold;
@@ -39,9 +41,10 @@ footer{
                 }
 
                 li{
-                    font-size: 16px;
+                    font-size: 14px;
                     list-style-type: none;
                     margin-bottom: 10px;
+                    line-height: 30px;
 
                     a{
                         text-decoration: none;
