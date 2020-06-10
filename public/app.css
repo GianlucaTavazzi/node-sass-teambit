@@ -119,12 +119,14 @@ main .jumbotron .Jumbotron-right img {
   height: 425px;
 }
 
-main .sections {
+main .traditional,
+main .modern {
   text-align: center;
   background-color: #ffe7d2;
 }
 
-main .sections .conteiner {
+main .traditional .conteiner,
+main .modern .conteiner {
   width: 87%;
   margin: auto;
   padding: 90px 250px;
@@ -132,27 +134,37 @@ main .sections .conteiner {
   border-bottom: 1px solid grey;
 }
 
-main .sections p {
+main .traditional p,
+main .modern p {
   font-size: 30px;
   margin-bottom: 60px;
 }
 
-main .sections .wrapper {
+main .traditional .wrapper,
+main .modern .wrapper {
   display: flex;
 }
 
-main .sections .wrapper .images p {
+main .traditional .wrapper .images p,
+main .modern .wrapper .images p {
   font-size: 20px;
 }
 
-main .sections .wrapper .images img {
+main .traditional .wrapper .images img,
+main .modern .wrapper .images img {
   height: 100px;
   margin: 40px 0;
 }
 
-main .sections img {
+main .traditional img,
+main .modern img {
   height: 350px;
   margin: 100px 0;
+}
+
+main .modern .conteiner {
+  border-bottom: none;
+  padding-bottom: 50px;
 }
 
 main .feedback,

@@ -42,7 +42,7 @@ main{
         }
     }
 
-    .sections{
+    .traditional{
         text-align: center;
         background-color: #ffe7d2;
 
@@ -78,6 +78,15 @@ main{
         img{
             height: 350px;
             margin: 100px 0;
+        }
+    }
+
+    .modern{
+        @extend .traditional;
+
+        .conteiner{
+            border-bottom: none;
+            padding-bottom: 50px;
         }
     }
 
